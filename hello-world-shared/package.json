@@ -1,0 +1,17 @@
+{
+    "name": "hello-world-shared",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.jsx",
+    "scripts": {
+        "lint": "echo \"No linter for hello-world-shared: skipping\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "peerDependencies": {
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0"
+    }
+}
