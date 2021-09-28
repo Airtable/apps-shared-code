@@ -1,10 +1,16 @@
 {
     "name": "@airtable/shared-code-block",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "This example app shows how to use code from other directories in your app.",
     "author": "",
     "license": "MIT",
     "scripts": {
-        "lint": "npm run --prefix hello-world-typescript-block lint && npm run --prefix hello-world-shared lint"
+        "lint": "npm run --prefix hello-world-typescript-block lint && npm run --prefix hello-world-shared lint",
+        "preinstall": "npm install --prefix hello-world-typescript-block && npm install --prefix hello-world-shared"
+    },
+    "dependencies": {
+        "@airtable/blocks": "latest",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0"
     }
 }
